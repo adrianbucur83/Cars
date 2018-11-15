@@ -10,6 +10,7 @@ public abstract class Car implements Vehicles {
     double fuel_used;
     private int current_gear = 0;
     private double available_fuel;
+    String newidea;
 
     void setAvailable_fuel(double available_fuel) {
         this.available_fuel = available_fuel;
